@@ -4,7 +4,7 @@ import Header from './components/Navbar';
 function App() {
   return (
     <>
-      <Header title ="Company"/>
+      <Header title ="FashionBazar"/>
     </>
   );
 }
