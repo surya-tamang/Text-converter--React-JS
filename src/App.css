@@ -1,48 +1,6 @@
-* {
-    margin: 0;
-    padding: 0;
-    list-style: none;
-    text-decoration: none;
-}
-
-header {
-    display: flex;
-    justify-content: center;
-    justify-content: space-between;
-}
-
-header .logo{
-    margin-left: 30px;
-    font-size: 30px;
-}
-
-header nav ul li {
-    display: inline-block;
-    padding: 10px 25px;
-}
-
-header nav ul li a {
-    text-decoration: none;
-}
-
-header .dropdown {
-    position: relative;
-}
-
-header .dropdown ul {
-    position: absolute;
-    left: 5px;
-    top: 2.5rem;
-    box-shadow: 0 0 2px black;
-    padding: 10px 0;
-    text-align: center;
-    width: 100px;
-    display: flex;
-    align-items: center;
-    flex-direction: column;
-    opacity: 0;
-}
-
-nav ul li:hover ul {
-    opacity: 1;
+textarea{
+    max-height: 300px;
+    min-height: 300px;
+    resize: none;
+    padding: 20px;
 }
