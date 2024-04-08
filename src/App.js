@@ -9,8 +9,8 @@ function App() {
       <div className='container-fluid d-flex justify-content-center min-vh-100 bg-dark-subtle align-items-center'>
         
         <Header title="FashionBazar" />
-        <Main />
-        
+        <Main title="Text conversion"/>
+
       </div>
 
     </>
