@@ -7,4 +7,14 @@ textarea{
     min-height: 300px;
     resize: none;
     padding: 20px;
+    outline: none;
+}
+
+button{
+    padding: 10px ;
+    margin: 0 15px;
+}
+
+.btn button{
+    margin-top: 80px;
 }
