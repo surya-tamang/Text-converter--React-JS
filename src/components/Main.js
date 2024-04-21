@@ -35,7 +35,7 @@ export default function Main(props) {
 
 
     function changeTheme() {
-        if (theme.color == 'white') {
+        if (theme.color === 'white') {
             setTheme({
                 color: 'black',
                 backgroundColor: 'white'
